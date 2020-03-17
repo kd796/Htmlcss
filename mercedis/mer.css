@@ -1,0 +1,56 @@
+.topnav {
+    overflow: hidden;
+    /* background-color: rgb(55, 58, 55);*/
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: double;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    /*background-color: rgb(55, 58, 55);*/
+    color: rgb(138, 37, 37);
+}
+
+.topnav a.active {
+    /* background-color: rgb(55, 58, 55);*/
+    color: rgb(216, 201, 201);
+}
+
+.format {
+    margin-top: 0;
+    background-image: linear-gradient(rgb(0, 0, 0), white);
+}
+
+.format1 {
+    margin-top: "-50px";
+}
+
+.fishes {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.fish {
+    position: absolute;
+    ;
+    top: 60;
+    left: 80;
+}
+
+
+/*
+<div class="row ">
+            <div class="col-md-2 offset-1">
+                <div class="card">
+                    <img src="Capture.png" class="card-img-top">
+                </div>
+            </div>
+
+        </div>*/
