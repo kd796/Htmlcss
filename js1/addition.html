@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div>
+        FN <input type="text" name="one" id="one" value=" "> SN
+        <input type="text" name="two" id="two" value=" ">
+        <input type="text" name="t" id="result" value=" ">
+    </div>
+    <button type="button" onclick="add('a')">ADD</button><br>
+    <button type="button" onclick="add('s')">SUB</button><br>
+    <button type="button" onclick="add('m')">MUL</button><br>
+    <button type="button" onclick="add('d')">DIV</button><br>
+    </div>
+    </div>
+
+    <script>
+        function add(x) {
+
+            if (x === 'a') {
+                var name1 = Number(document.getElementById('one').value);
+                var name2 = Number(document.getElementById('two').value);
+                var output = name1 + name2;
+                document.getElementById('result').value = output;
+            }
+            if (x === 's') {
+
+                var name1 = Number(document.getElementById('one').value);
+                var name2 = Number(document.getElementById('two').value);
+                var output = name1 - name2;
+                document.getElementById('result').value = output;
+            }
+            if (x === 'm') {
+                var name1 = Number(document.getElementById('one').value);
+                var name2 = Number(document.getElementById('two').value);
+                var output = name1 * name2;
+                document.getElementById('result').value = output;
+            }
+            if (x == 'd') {
+                var name1 = Number(document.getElementById('one').value);
+                var name2 = Number(document.getElementById('two').value);
+                var output = name1 / name2;
+                document.getElementById('result').value = output;
+            }
+
+        }
+    </script>
+</body>
+
+</html>
