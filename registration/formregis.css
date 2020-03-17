@@ -1,0 +1,21 @@
+.m-top-20 {
+    padding-left: 500px;
+}
+
+.fg-blue {
+    color: blue;
+}
+
+.shadow {
+    text-shadow: 1px 1px 0 black, 2px 2px 0 black;
+}
+
+.shadow1 {
+    text-shadow: 1px 1px 0 burlywood, 2px 2px 0 burlywood;
+}
+
+.border {
+    border: cornflowerblue;
+    border-style: inherit;
+    box-shadow: 2rem;
+}
