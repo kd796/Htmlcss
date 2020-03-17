@@ -1,0 +1,39 @@
+.m-top-20 {
+    padding-left: 500px;
+}
+
+.fg-blue {
+    color: blue;
+}
+
+.shadow {
+    text-shadow: 1px 1px 0 black, 2px 2px 0 black;
+}
+
+.shadow1 {
+    text-shadow: 1px 1px 0 burlywood, 2px 2px 0 burlywood;
+}
+
+.border {
+    border: cornflowerblue;
+    border-style: inherit;
+    box-shadow: 2rem;
+}
+
+.format {
+    background-color: rgb(21, 21, 83);
+    color: blue;
+}
+
+.text {
+    color: rgb(238, 230, 230);
+}
+
+.back {
+    background-color: rgb(48, 46, 46);
+    color: white;
+}
+
+.back2 {
+    background-color: rgb(255, 81, 0);
+}
