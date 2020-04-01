@@ -1,0 +1,524 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Kuntal's Page</title>
+
+
+    <link rel="stylesheet" href="test.css">
+
+
+</head>
+
+<body>
+
+    <div class="loader-wrapper" id="loader-control">
+        <div class="loader-inner">
+            <i class="fas fa-spinner fa-pulse ld"></i>
+        </div>
+    </div>
+
+
+
+    <div class="static-bg">
+        <div class="row">
+            <div class="col-10">
+                <div class="header">
+                    <img src="logo.PNG" height="70px" width="70px" alt="logo" />
+                    <marquee>
+                        <h1 class="white">Welcome to OnlineBook Store</h1>
+                    </marquee>
+
+                </div>
+            </div>
+
+            <div class="col-2 ">
+                <button type="button" class="btn btn-primary search" data-toggle="modal"
+                    data-target=".bd-example-modal-lg">CART<i class='fas fa-baby-carriage'></i></button>
+            </div>
+        </div>
+
+
+
+
+        <div class="container">
+            <!--
+            <div class="row">
+                <div class="col-3 p-4">
+                    <div class="card card1">
+                        <img class="card-img-top" src="1984.jpg" height="300px" width="300px" alt=" Card image cap ">
+                        <div class="card-body ">
+                            <h5 class="card-title ">1984 by George Orwell</h5>
+                            <p class="card-text ">
+                                <button type="button" class="btn btn-primary" data-toggle="modal"
+                                    data-target="#exampleModal0" onclick="ad(0)">
+                                    BUY
+                                </button>
+                            </p>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-3">
+                    <div class="card card1 " style="width: 18rem;">
+                        <img class="card-img-top" src="alchemist.jpg" height="300px" width="300px"
+                            alt=" Card image cap ">
+                        <div class="card-body ">
+                            <h5 class="card-title ">Alchemist</h5>
+                            <p class="card-text ">
+                                <button type="button" class="btn btn-primary" data-toggle="modal"
+                                    data-target="#exampleModal0" onclick="ad(1)">
+                                    BUY
+                                </button>
+
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+
+
+
+                <div class="col-3">
+                    <div class="card card1" style="width: 18rem;">
+                        <img class="card-img-top" src="blade.jpg" height="275px" width="275px" alt=" Card image cap ">
+                        <div class="card-body ">
+                            <h5 class="card-title ">Do Androids Dream of Electric Sheep?</h5>
+                            <p class="card-text ">
+                                <button type="button" class="btn btn-primary" data-toggle="modal"
+                                    data-target="#exampleModal0" onclick="ad(2)">
+                                    BUY
+                                </button>
+
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-2">
+                    <div class="card card1" style="width: 18rem;">
+                        <img class="card-img-top" src="chess.jpg" height="300px" width="300px" alt=" Card image cap ">
+                        <div class="card-body ">
+                            <h5 class="card-title ">Chess Story</h5>
+                            <p class="card-text ">
+                                <button type="button" class="btn btn-primary" data-toggle="modal"
+                                    data-target="#exampleModal0" onclick="ad(3)">
+                                    BUY
+                                </button>
+
+                            </p>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-3 paddi">
+                    <div class="card card1" style="width: 18rem;">
+                        <img class="card-img-top" src="meta.jpg" height="300px" width="300px" alt=" Card image cap ">
+                        <div class="card-body ">
+                            <h5 class="card-title ">The Metamorphosis</h5>
+                            <p class="card-text ">
+                                <button type="button" class="btn btn-primary" data-toggle="modal"
+                                    data-target="#exampleModal0" onclick="ad(4)">
+                                    BUY
+                                </button>
+                            </p>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-3">
+                    <div class="card card1" style="width: 18rem;">
+                        <img class="card-img-top" src="oldman.jpg" height="300px" width="300px" alt=" Card image cap ">
+                        <div class="card-body ">
+                            <h5 class="card-title ">The Old Man and the Sea</h5>
+                            <p class="card-text ">
+                                <button type="button" class="btn btn-primary" data-toggle="modal"
+                                    data-target="#exampleModal0" onclick="ad(5)">
+                                    BUY
+                                </button>
+
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+
+
+
+                <div class="col-3">
+                    <div class="card card1" style="width: 18rem;">
+                        <img class="card-img-top" src="orient.jpg" height="300px" width="300px" alt=" Card image cap ">
+                        <div class="card-body ">
+                            <h5 class="card-title ">Murder on the Orient Express</h5>
+                            <p class="card-text ">
+                                <button type="button" class="btn btn-primary" data-toggle="modal"
+                                    data-target="#exampleModal7" onclick="ad(6)">
+                                    BUY
+                                </button>
+
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-2">
+                    <div class="card card1" style="width: 18rem;">
+                        <img class="card-img-top" src="price.jpg" height="300px" width="300px" alt=" Card image cap ">
+                        <div class="card-body ">
+                            <h5 class="card-title ">The Little Prince</h5>
+                            <p class="card-text ">
+                                <button type="button" class="btn btn-primary" data-toggle="modal"
+                                    data-target="#exampleModal0" onclick="ad(7)">
+                                    BUY
+                                </button>
+
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+
+
+            
+
+
+
+
+
+
+
+
+                
+
+
+
+
+
+                <br><br><br>
+
+
+            </div>
+
+
+        -->
+
+            <div class="row" id="bookStore">
+
+            </div>
+
+
+            <br>
+            <div class="modal fade" id="exampleModal0" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel"></h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body" id="0">
+                        </div>
+                        <div class="modal-footer" id="foot">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <table class="table" id="book">
+                            <thead class="blue">
+                                <tr>
+                                    <th scope="col">#</th>
+                                    <th scope="col">Name</th>
+                                    <th scope="col">Author</th>
+                                    <th scope="col">Price</th>
+                                    <th scope="col">...</th>
+                                </tr>
+                            </thead>
+                            <tbody class="body1">
+
+                            </tbody>
+                        </table>
+                        <!--checkout-->
+                        <button type="button" class="btn btn-primary" data-toggle="modal"
+                            data-target=".bd-example-modal-lg1" onclick="total()">CHECKOUT</button>
+                        <div style="background-image: url('img1.jpg');">
+                            <div class="modal fade bd-example-modal-lg1 " tabindex="-1" role="dialog"
+                                aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-lg">
+                                    <div class="modal-content">
+                                        <div class="row">
+                                            <div class="col-75">
+                                                <div class="container">
+                                                    <form action="/action_page.php ">
+
+                                                        <div class="row">
+                                                            <div class="col-50">
+                                                                <h3>Billing Address</h3>
+                                                                <label for="fname"><i class="fa fa-user"></i> Full
+                                                                    Name</label>
+                                                                <input type="text" id="fname" name="firstname"
+                                                                    placeholder="John M. Doe">
+                                                                <label for="email"><i class="fa fa-envelope"></i>
+                                                                    Email</label>
+                                                                <input type="text" id="email" name="email"
+                                                                    placeholder="john@example.com">
+                                                                <label for="adr"><i class="fa fa-address-card-o"></i>
+                                                                    Address</label>
+                                                                <input type="text" id="adr" name="address"
+                                                                    placeholder="542 W. 15th Street">
+                                                                <label for="city"><i class="fa fa-institution"></i>
+                                                                    City</label>
+                                                                <input type="text" id="city" name="city"
+                                                                    placeholder="New York">
+
+                                                                <div class="row">
+                                                                    <div class="col-50">
+                                                                        <label for="state">State</label>
+                                                                        <input type="text" id="state" name="state"
+                                                                            placeholder="NY">
+                                                                    </div>
+                                                                    <div class="col-50">
+                                                                        <label for="zip">Zip</label>
+                                                                        <input type="text" id="zip" name="zip"
+                                                                            placeholder="10001">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="col-50">
+                                                                <h3>Payment</h3>
+                                                                <label for="fname">Accepted Cards</label>
+                                                                <div class="icon-container">
+                                                                    <i class='fa fa-cc-visa'></i>
+                                                                    <i class="fa fa-cc-amex" style="color:blue;"></i>
+                                                                    <i class="fa fa-cc-mastercard"
+                                                                        style="color:red;"></i>
+                                                                    <i class="fa fa-cc-discover"
+                                                                        style="color:orange;"></i>
+                                                                </div>
+                                                                <label for="cname">Name on Card</label>
+                                                                <input type="text" id="cname" name="cardname"
+                                                                    placeholder="John More Doe">
+                                                                <label for="ccnum">Credit card number</label>
+                                                                <input type="text" id="ccnum" name="cardnumber"
+                                                                    placeholder="1111-2222-3333-4444">
+                                                                <label for="expmonth">Exp Month</label>
+                                                                <input type="text" id="expmonth" name="expmonth"
+                                                                    placeholder="September">
+
+                                                                <div class="row">
+                                                                    <div class="col-50">
+                                                                        <label for="expyear">Exp Year</label>
+                                                                        <input type="text" id="expyear" name="expyear"
+                                                                            placeholder="2018">
+                                                                    </div>
+                                                                    <div class="col-50">
+                                                                        <label for="cvv">CVV</label>
+                                                                        <input type="text" id="cvv" name="cvv"
+                                                                            placeholder="352">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+                                                        </div>
+                                                        <label>
+                                                            <input type="checkbox" checked="checked" name="sameadr">
+                                                            Shipping address same as billing
+                                                        </label>
+                                                        <button type="button" class="btn"
+                                                            onclick="clear1() ">PAY</button>
+                                                        <button type="button" class="btn"
+                                                            onclick="window.open('test.html')">Go To
+                                                            HomePage</button>
+
+                                                    </form>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-25">
+                                                <div class="container">
+                                                    <h4>Cart
+                                                        <span class="price" style="color:black">
+                                                            <i class="fa fa-shopping-cart"></i>
+                                                            <b id="cart_no"></b>
+                                                        </span>
+                                                    </h4>
+                                                    <p>No of Items <span id="count"></span></p>
+                                                    <p>Items Total <span id="cost"></span> </p>
+
+                                                    <hr>
+                                                    <p>Total <span class="price" style="color:black"><b
+                                                                id="total1"></b></span></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--
+        <div style="background-image: url('img1.jpg');">
+            <div class="row">
+                <div class="col-3 paddi">
+                    <div class="card card1" style="width: 18rem;">
+                        <img class="card-img-top" src="meta.jpg" height="300px" width="300px" alt=" Card image cap ">
+                        <div class="card-body ">
+                            <h5 class="card-title ">The Metamorphosis</h5>
+                            <p class="card-text ">
+                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal0" onclick="ad(4)">
+                                    BUY
+                                  </button>
+                            </p>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-3">
+                    <div class="card card1" style="width: 18rem;">
+                        <img class="card-img-top" src="oldman.jpg" height="300px" width="300px" alt=" Card image cap ">
+                        <div class="card-body ">
+                            <h5 class="card-title ">The Old Man and the Sea</h5>
+                            <p class="card-text ">
+                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal0" onclick="ad(5)">
+                                    BUY
+                                  </button>
+
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+
+
+
+                <div class="col-3">
+                    <div class="card card1" style="width: 18rem;">
+                        <img class="card-img-top" src="orient.jpg" height="300px" width="300px" alt=" Card image cap ">
+                        <div class="card-body ">
+                            <h5 class="card-title ">Murder on the Orient Express</h5>
+                            <p class="card-text ">
+                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal7" onclick="ad(6)">
+                                    BUY
+                                  </button>
+
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-2">
+                    <div class="card card1" style="width: 18rem;">
+                        <img class="card-img-top" src="price.jpg" height="300px" width="300px" alt=" Card image cap ">
+                        <div class="card-body ">
+                            <h5 class="card-title ">The Little Prince</h5>
+                            <p class="card-text ">
+                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal0" onclick="ad(7)">
+                                    BUY
+                                  </button>
+
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </div>
+        </div>
+    -->
+    </div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+    
+    <script>
+        src = " https: cdnjs.cloudflare.com / ajax / libs / jquery / 3.4 .1 / jquery.min.js"
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js "
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo " crossorigin="anonymous ">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js "
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6 " crossorigin="anonymous ">
+    </script>
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <script src="test1.js"></script>
+    <script src="test.js"></script>
+</body>
+
+<script>
+    $(document).ready(function () {
+        console.log("loaded")
+        $("#loader-control").hide()
+    })
+</script>
+
+</html>
