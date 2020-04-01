@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script>
+        $('document').ready(function() {
+                    $('#apply').click(function() {
+                        $('#contain').css({
+                            "color": $('#frontcolor').val(),
+                            "font-size": $('#frontsize').val(),
+                            "border-style": $('#borderstyle').val(),
+                            "border-color": $('#bordercolor').val(),
+                        });
+                    });
+                };
+    </script>
+
+
+
+</head>
+
+<body>
+
+    <body>
+        <div id="contain">
+            some text
+        </div>
+
+        fontcolor:
+        <select name="" id="frontcol0r">
+            <option value="green">green</option>
+            <option value="blue">blue</option>
+            <option value="violet">violet</option>
+        </select> fontsize:
+        <select name="" id="frontsize">
+            <option value="30px">30</option>
+            <option value="40px">40</option>
+        </select> borderstyle:
+        <select name="" id="borderstyle">
+            <option value="solid">solid</option>
+            <option value="dashed">dashed</option>
+        </select> bordercolor:
+        <select name="" id="bordercolor">
+            <option value="violet">violet</option>
+            <option value="green">green</option>
+        </select>
+
+        <button id="apply">apply</button>
+    </body>
+    <script>
+        $('#apply').click(function() {
+            $('#contain').css({
+                "color": $('#frontcolor').val(),
+                "font-size": $('#frontsize').val(),
+                "border-style": $('#borderstyle').val(),
+                "border-color": $('#bordercolor').val(),
+            });
+        });
+    </script>
+
+</html>
+</body>
+
+</html>
