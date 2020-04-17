@@ -1,0 +1,108 @@
+.font {
+    font-family: 'Amaranth';
+    font-size: 28px;
+}
+
+.mt-7 {
+    margin-top: 7rem!important;
+}
+
+.visited {
+    color: green;
+    text-decoration: underline;
+}
+
+.font1 {
+    font-family: 'Amaranth';
+}
+
+.testimonial {
+    font-size: 16px;
+}
+
+.size {
+    height: auto;
+    width: 50%;
+}
+
+.profile {
+    border-radius: 100%;
+    height: 3.125em;
+    width: 3.125em;
+    float: left;
+    margin-right: 10px;
+}
+
+.card {
+    width: 30em;
+    -moz-box-shadow: 3px 3px 5px 1px #ccc;
+    -webkit-box-shadow: 3px 3px 5px 1px #ccc;
+    box-shadow: 3px 3px 5px 1px #ccc;
+    padding: 20px;
+}
+
+#end {
+    background-color: #515585;
+    color: white;
+    padding: 100px;
+    position: relative;
+    padding-bottom: 9.375em;
+}
+
+.access {
+    display: inline-block;
+}
+
+.end-input {
+    -moz-box-shadow: 3px 3px 5px 1px #595959;
+    -webkit-box-shadow: 3px 3px 5px 1px #595959;
+    box-shadow: 3px 3px 5px 1px #595959;
+    width: 40%;
+    display: inline-block;
+    position: absolute;
+    position: absolute;
+    right: 3.125em;
+    top: 9.375em;
+}
+
+#end {
+    display: block;
+    position: relative;
+    top: 550px;
+}
+
+.back1 {
+    background-color: #515585;
+}
+
+.font1 {
+    color: white;
+}
+
+.pad1 {
+    width: "100%"
+}
+
+.back2 {
+    background-color: #202131;
+}
+
+.pa {
+    color: white;
+}
+
+.formcontrol1 {
+    display: block;
+    width: 60%!important;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
